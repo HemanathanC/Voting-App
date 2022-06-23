@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:text="ADMIN PAGE"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/vv"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="View All Voters"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/pink"
+        />
+
+    <Button
+        android:id="@+id/vc"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30pt"
+        android:text="View All Candidates"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/pink"/>
+    <Button
+        android:id="@+id/av"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vc"
+        android:layout_marginTop="30pt"
+        android:text="ADD Voters"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/pink"/>
+    <Button
+        android:id="@+id/ac"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/av"
+        android:layout_marginTop="30pt"
+        android:text="ADD CANDIDATES"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/pink"/>
+</RelativeLayout>
+</LinearLayout>
